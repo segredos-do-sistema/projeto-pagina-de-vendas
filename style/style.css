@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Passion One', cursive;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+h1, h2, P{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+header{
+    background-image: url(../imagens/fundo-preto-background.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    color: white;
+    padding: 20px;
+
+}
+header h1#header-do-h1{
+    text-align: center;
+    font-size: 5vw;
+    padding-bottom:20px ;
+    line-height: 1.3;
+    
+}
+span.span-do-reader-h1{
+    background-color: rgb(1, 224, 27);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    /* configuração da cor do titulo principal*/
+}
+header h2{
+    font-size: 3vw;
+    
+}
+header p{
+    font-size: 1.5vw;
+}
+
+/* o header p h2 e h1#header-do-h1 foi em função do texto porque se colocar só o h1 em tudo fica centralizado e sediferencia com o h1#header-do-h1 vI resolvero problema*/
+
+
+iframe{
+    display: flex;
+    max-width: 50vw;
+    max-height: 40vw;
+
+    /* configuração do video*/
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    /*configuração do conteudo mais o texto de vendas*/
+}
+
+div#conteudo-de-compras{
+    padding-left: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button#botao-de-compra{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    font-size: 2.5vw;
+    font-weight: 700;
+    background-color: rgb(0, 180, 0);
+    border-radius: 7px;
+    color: white;
+}
+
+/* primeira parte com site concluido*/
+.alterdor-1{
+    display: block;
+}
+
+.alterdor-2{
+    display: none;
+}
+
+section#primeira-parte-do-main{
+    display: flex;
+    align-items: center;
+
+}
+
+section#primeira-parte-do-main img{
+    width: 50%;
+}
+
+
+
+section#primeira-parte-do-main article > h1{
+    font-size: 4.3vh;
+
+}
+
+/* primeira parte do main concluida*/
+
+section#segunda-parte-do-main{
+    display: flex;
+    align-items: center;
+}
+
+section#segunda-p
+arte-do-main article > h2{
+    font-size: 8vh;
+}
+section#segunda-parte-do-main img{
+    width: 50%;
+}
+
+/*segunda parte do main concluido*/
+
+section#terceira-parte-do-main{
+    background-color: aqua;
+    text-align: center;
+    padding: 40px 60px;
+}
+section#terceira-parte-do-main h2{
+    color: white;
+}
+section#terceira-parte-do-main p{
+    text-align: justify;
+}
+
+/*terceira parte no main concluido*/
+
+section#quarta-parte-do-main{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+button#botao-de-compra-do-quarto-selection{
+    background-color: rgb(29, 214, 0);
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+/*quarto parte no main esta concluido*/
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 0px;
+    line-height: 2.0;
+
+}
+span{
+    background-color:rgb(29, 214, 0) ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,44 @@
+@charset "UFT-8";
+
+@media (max-width:800px) {
+    
+    .container{
+        flex-direction: column;
+    }
+    div#conteudo-de-compras{
+        padding: 0px;
+    }
+    div#conteudo-de-compras p{
+        font-size: 15px;
+    }
+    div#conteudo-de-compras h2{
+        font-size: 25px;
+    }
+    button#botao-de-compra{
+        font-size: 30px;
+    }
+    header h1#header-do-h1{
+        font-size: 33px;
+    }
+
+    /*herder concluido*/
+    .alterdor-1{
+        display: none;
+    }
+    
+    .alterdor-2{
+        display: block;
+    }
+    section#segunda-parte-do-main h2{
+        font-size: 3em;
+    }
+}
+@media (max-width:600px) {
+    section#primeira-parte-do-main article > h1{
+        font-size: 6vw;
+    }
+
+    section#terceira-parte-do-main{
+        padding: 15px 40px;
+    }
+}
